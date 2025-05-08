@@ -1,0 +1,15 @@
+body{
+    background-color: lightblue;
+}
+#products{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 50px;
+    justify-content: space-evenly;
+}
+#products > article{
+    width: 45%;
+    border: 1px solid red;
+    height: 200px;
+}
